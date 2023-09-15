@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nasci/Desktop/UnifiedAuthorization/UnifiedAuthorization/UnifiedAuthorization.csproj": {}
+  },
+  "projects": {
+    "/home/nasci/Desktop/UnifiedAuthorization/UnifiedAuthorization/UnifiedAuthorization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nasci/Desktop/UnifiedAuthorization/UnifiedAuthorization/UnifiedAuthorization.csproj",
+        "projectName": "UnifiedAuthorization",
+        "projectPath": "/home/nasci/Desktop/UnifiedAuthorization/UnifiedAuthorization/UnifiedAuthorization.csproj",
+        "packagesPath": "/home/nasci/.nuget/packages/",
+        "outputPath": "/home/nasci/Desktop/UnifiedAuthorization/UnifiedAuthorization/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nasci/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.22, 6.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
